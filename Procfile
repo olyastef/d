@@ -1,0 +1,1 @@
+web: gunicorn MAServerSide.wsgi --log-file -
