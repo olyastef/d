@@ -34,9 +34,7 @@ class LoginView(APIView):
         try:
             username = request.data['username']
             password = request.data['password']
-            print(username)
-            user = authenticate(request, username=username, password=password)
-            print(user)
+            user = authenticate(username=username, password=password)
             if user:
                 try:
                     payload = jwt_payload_handler(user)
