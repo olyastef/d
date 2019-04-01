@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['guarded-plains-59021.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
-
+ddsad
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
